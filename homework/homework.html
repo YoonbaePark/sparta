@@ -1,0 +1,191 @@
+<html>
+
+<head>
+    <title>갤럭시 S20을 구매하세요!</title>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gugi&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function q1() {
+            let txt1 = $('#name').val();
+            let txt2 = $('#address').val();
+            
+            let txt4 = $('#color').val();
+            let txt5 = $('#num').val();
+            if (txt1 == '') {
+                alert('이름을 입력하세요!');
+                $('#name').focus();
+            } else if (txt2 == '') {
+                alert('이메일을 입력하세요!')
+                $('#address').focus();
+              ;}
+         
+            else if(txt4 == '') {
+                alert('색상을 선택하세요!');
+                $('#color').focus();
+            }  
+            else if(txt5 == '') {
+                alert('수량을 선택하세요!');
+                $('#num').focus();
+            }
+            else {
+                alert("장바구니담기 완료");
+            }
+                      }
+
+                      
+        function q2() {
+            let txt1 = $('#name').val();
+            let txt2 = $('#address').val();
+            
+            let txt4 = $('#color').val();
+            let txt5 = $('#num').val();
+            if (txt1 == '') {
+                alert('이름을 입력하세요!');
+                $('#name').focus();
+            } else if (txt2 == '') {
+                alert('이메일을 입력하세요!')
+                $('#address').focus();
+              ;}
+         
+            else if(txt4 == '') {
+                alert('색상을 선택하세요!');
+                $('#color').focus();
+            }  
+            else if(txt5 == '') {
+                alert('수량을 선택하세요!');
+                $('#num').focus();
+            }
+            else {
+                alert("주문완료");
+            }
+                      }
+
+    </script>
+    <Style>
+        *{font-family: 'Do Hyeon', sans-serif;}
+        .wrap {
+            width: 600px;
+            margin: auto;
+        }
+
+        .card-body {
+            max-width: 650px;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-color: #e9ecef;
+            border-radius: 0.3rem;
+            border: solid;
+            display: block;
+        }
+
+        .btn {
+            color: black;
+            background: cornsilk;
+            font-size: 1em;
+            border-radius: 0.5em;
+            padding: 5px 20px;
+            margin: 10px 0 0 30px;
+        }
+
+        .btn2 {
+            color: black;
+            background: red;
+            font-size: 1em;
+            border-radius: 0.5em;
+            padding: 5px 20px;
+            margin: 10px 0 0 30px;
+        }
+
+
+        .H {
+            height: 50px;
+        }
+
+        body {
+            background-color: #F7FFF5;
+        }
+    </Style>
+
+</head>
+
+<body>
+    <div class="wrap">
+
+        <img class="card-img-top"
+            src="https://img.appstory.co.kr/@files/monthly.appstory.co.kr/thum/Bdatafile/Board/dir_127/12706.jpg"
+            alt="Card image cap">
+
+        <div class="card-body">
+            <h4 class="card-title"><span style=font-size:40px;line-height:0px;>Galaxy S20</h4>
+            <p class="card-text"><span style=font-size:20px;line-height:2.5rem;>갤럭시 S20 | S20+ | S20 Ultra 5G를
+                    만나보세요. 비약적으로 향상된 해상도와 8K 동영상 촬영으로 전에 없던 퀄리티의 사진과
+                    영상을 찍고, 5G로
+                    쉽고 빠르게 공유할 수 있습니다. 보안을 위한 Samsung Knox, 올데이 배터리, 강력한 프로세서, 압도적인 저장 공간은 기본이죠. 모바일의 새로운 미래를 열 갤럭시
+                    S20 시리즈를 소개합니다.</p>
+
+            <div class="form-group H">
+                <label for="name"><span style=font-size:20px;>주문자 성함</label>
+                <input type="email" class="form-control" id="name" placeholder="홍 길 동">
+            </div>
+            <div class="form-group H">
+                <label for="address"><span style=font-size:20px;>이메일 주소</label>
+                <input type="email" class="form-control" id="address" placeholder="name@example.com">
+            </div class="H">
+            <p>
+                <div><label for="exampleFormControlInput1" id= model><span style=font-size:20px;>모델 선택</label></div>
+            </p>
+            <div class="form-check H">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="model" value="option1"
+                    checked>
+                <label class="form-check-label" for="model">
+                    Galaxy S20
+                </label>
+            </div>
+            <div class="form-check H">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="model" value="option1"
+                    checked>
+                <label class="form-check-label" for="model">
+                    Galaxy S20 Plus
+                </label>
+            </div>
+            <div class="form-check H">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="model" value="option1"
+                    checked>
+                <label class="form-check-label" for="model">
+                    Galaxy S20 Ultra
+                </label>
+            </div>
+
+            <div class="form-group H">
+                <label for="exampleFormControlSelect1" ><span style=font-size:20px;>색상 선택</label>
+                <select class="form-control" id="color">
+                    <option selected="" value = "">"색상을 선택하세요"</option>
+                    <option value = "1">클라우드 화이트</option>
+                    <option value = "2">클라우드 블루</option>
+                    <option value = "3">코스믹 그레이</option>
+                </select>
+            </div>
+            <div class="form-group H">
+                <label for="exampleFormControlSelect1"><span style=font-size:20px;>수량 선택</label>
+                <select class="form-control" id="num">
+                    <option selected="" value = "">"수량을 선택하세요"</option>
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                </select>
+            </div>
+
+            <div align="right">
+                <p>
+                    <button type="button" id=basket onclick="q1()" class="btn btn-primary btn-lg">장바구니</button>
+                    <button type="button" id=buy onclick="q2()" class="btn2 btn-primary btn-lg">구매하기</button>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
